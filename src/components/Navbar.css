@@ -1,0 +1,70 @@
+.navback{
+    background:linear-gradient(to left ,#7d1c80d2,#FF6057);
+    
+
+}
+nav ul{
+    margin-left: 4%;
+
+}
+.nav-item{
+    margin: 2vh;
+}
+.navlink{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navbt{
+    position: fixed;
+    right: 10%;
+    border-radius: 5%;
+    border: white 1px solid;
+    box-shadow: 2px 2px 2px white;
+    background-image: linear-gradient(to left ,#7d1c80d2,#FF6057);
+    width: 10%;
+    height: 5vh;
+    color:white ;
+
+}
+.navimg{
+    width:70%;
+}
+
+/* Tablet*/
+@media (max-width:768px) {
+    .nav-item{
+        margin-left:5px;
+    
+    }
+    .navlink{
+        font-size: 15px;
+    }
+    .navimg{
+        width: 50%;
+    }
+    .navbt{
+        position: fixed;
+        right: 4%;
+        width: 12%;
+        height: 5vh;
+        
+    }
+}
+/* Mobile */
+@media(max-width:400px)
+{
+    
+    .navlink{
+        font-size: 14px;
+    }
+    .navbt{
+        position: fixed;
+        left: 5%;
+        width: 30%;
+        height: 5vh;
+
+    }
+    
+
+}
